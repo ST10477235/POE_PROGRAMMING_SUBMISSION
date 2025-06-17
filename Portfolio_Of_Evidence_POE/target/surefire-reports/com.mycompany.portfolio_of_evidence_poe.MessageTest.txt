@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.mycompany.portfolio_of_evidence_poe.MessageTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.708 s -- in com.mycompany.portfolio_of_evidence_poe.MessageTest

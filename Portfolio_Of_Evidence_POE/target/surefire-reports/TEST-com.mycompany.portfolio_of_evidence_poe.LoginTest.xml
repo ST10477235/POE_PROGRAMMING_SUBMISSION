@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.mycompany.portfolio_of_evidence_poe.LoginTest" time="4.337" tests="7" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="24"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="sun.awt.enableExtraMouseButtons" value="true"/>
+    <property name="java.class.path" value="C:\Users\VUNINI\Documents\NetBeansProjects\Portfolio_Of_Evidence_POE\target\test-classes;C:\Users\VUNINI\Documents\NetBeansProjects\Portfolio_Of_Evidence_POE\target\classes;C:\Users\VUNINI\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.16.1\jackson-databind-2.16.1.jar;C:\Users\VUNINI\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.16.1\jackson-annotations-2.16.1.jar;C:\Users\VUNINI\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.16.1\jackson-core-2.16.1.jar;C:\Users\VUNINI\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.3\junit-jupiter-api-5.10.3.jar;C:\Users\VUNINI\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\VUNINI\.m2\repository\org\junit\platform\junit-platform-commons\1.10.3\junit-platform-commons-1.10.3.jar;C:\Users\VUNINI\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\VUNINI\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.3\junit-jupiter-params-5.10.3.jar;C:\Users\VUNINI\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.3\junit-jupiter-engine-5.10.3.jar;C:\Users\VUNINI\.m2\repository\org\junit\platform\junit-platform-engine\1.10.3\junit-platform-engine-1.10.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Africa/Johannesburg"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="24"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-24\bin"/>
+    <property name="sun.java.command" value="C:\Users\VUNINI\AppData\Local\Temp\surefire17843734938874149335\surefirebooter-20250616005804014_3.jar C:\Users\VUNINI\AppData\Local\Temp\surefire17843734938874149335 2025-06-16T00-58-03_768-jvmRun1 surefire-20250616005804014_1tmp surefire_0-20250616005804014_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\VUNINI\Documents\NetBeansProjects\Portfolio_Of_Evidence_POE\target\test-classes;C:\Users\VUNINI\Documents\NetBeansProjects\Portfolio_Of_Evidence_POE\target\classes;C:\Users\VUNINI\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.16.1\jackson-databind-2.16.1.jar;C:\Users\VUNINI\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.16.1\jackson-annotations-2.16.1.jar;C:\Users\VUNINI\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.16.1\jackson-core-2.16.1.jar;C:\Users\VUNINI\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.3\junit-jupiter-api-5.10.3.jar;C:\Users\VUNINI\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\VUNINI\.m2\repository\org\junit\platform\junit-platform-commons\1.10.3\junit-platform-commons-1.10.3.jar;C:\Users\VUNINI\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\VUNINI\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.3\junit-jupiter-params-5.10.3.jar;C:\Users\VUNINI\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.3\junit-jupiter-engine-5.10.3.jar;C:\Users\VUNINI\.m2\repository\org\junit\platform\junit-platform-engine\1.10.3\junit-platform-engine-1.10.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\VUNINI"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-03-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-24"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\VUNINI\Documents\NetBeansProjects\Portfolio_Of_Evidence_POE"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\VUNINI\AppData\Local\Temp\surefire17843734938874149335\surefirebooter-20250616005804014_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="24+36-3646"/>
+    <property name="user.name" value="VUNINI"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\NetBeans-25\netbeans\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="localRepository" value="C:\Users\VUNINI\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\VUNINI\AppData\Local\Temp\"/>
+    <property name="java.version" value="24"/>
+    <property name="user.dir" value="C:\Users\VUNINI\Documents\NetBeansProjects\Portfolio_Of_Evidence_POE"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-24\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Java\jdk-23\bin;C:\Users\VUNINI\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.2.2\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2024.3.2\bin;C:\Program Files\NetBeans-25\netbeans\java\maven\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="24+36-3646"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="68.0"/>
+  </properties>
+  <testcase name="testCheckUsernameFormat" classname="com.mycompany.portfolio_of_evidence_poe.LoginTest" time="1.379">
+    <system-out><![CDATA[UsernameFormatValidation
+Loading user: [nu_, @#Vun3n3, Vunene, Hlungwani, 0713567594]
+Loading user: [se_di, @L3s3di#, Lesedi, Motlatlole, +27978403852]
+Loading user: [_mire, @Ad1m1r3, Vunwe, Admire, 0639854933]
+Loading user: [jos_y, @Jossy_So11y, Josephine, Hlungwani, 0713904572]
+Loading user: [k_bo, #Kayr@yb0, Karabo, Mokwena, +27884963245]
+Loading user: [mil_e, @Mol3mo200#, Molemo, Molefe, 0739662432]
+Loaded user: se_di -> Lesedi Motlatlole
+Loaded user: jos_y -> Josephine Hlungwani
+Loaded user: _mire -> Vunwe Admire
+Loaded user: k_bo -> Karabo Mokwena
+Loaded user: mil_e -> Molemo Molefe
+Loaded user: nu_ -> Vunene Hlungwani
+Loading user: [nu_, @#Vun3n3, Vunene, Hlungwani, 0713567594]
+Loading user: [se_di, @L3s3di#, Lesedi, Motlatlole, +27978403852]
+Loading user: [_mire, @Ad1m1r3, Vunwe, Admire, 0639854933]
+Loading user: [jos_y, @Jossy_So11y, Josephine, Hlungwani, 0713904572]
+Loading user: [k_bo, #Kayr@yb0, Karabo, Mokwena, +27884963245]
+Loading user: [mil_e, @Mol3mo200#, Molemo, Molefe, 0739662432]
+Loaded user: se_di -> Lesedi Motlatlole
+Loaded user: jos_y -> Josephine Hlungwani
+Loaded user: _mire -> Vunwe Admire
+Loaded user: k_bo -> Karabo Mokwena
+Loaded user: mil_e -> Molemo Molefe
+Loaded user: nu_ -> Vunene Hlungwani
+Loading user: [nu_, @#Vun3n3, Vunene, Hlungwani, 0713567594]
+Loading user: [se_di, @L3s3di#, Lesedi, Motlatlole, +27978403852]
+Loading user: [_mire, @Ad1m1r3, Vunwe, Admire, 0639854933]
+Loading user: [jos_y, @Jossy_So11y, Josephine, Hlungwani, 0713904572]
+Loading user: [k_bo, #Kayr@yb0, Karabo, Mokwena, +27884963245]
+Loading user: [mil_e, @Mol3mo200#, Molemo, Molefe, 0739662432]
+Loaded user: se_di -> Lesedi Motlatlole
+Loaded user: jos_y -> Josephine Hlungwani
+Loaded user: _mire -> Vunwe Admire
+Loaded user: k_bo -> Karabo Mokwena
+Loaded user: mil_e -> Molemo Molefe
+Loaded user: nu_ -> Vunene Hlungwani
+Loading user: [nu_, @#Vun3n3, Vunene, Hlungwani, 0713567594]
+Loading user: [se_di, @L3s3di#, Lesedi, Motlatlole, +27978403852]
+Loading user: [_mire, @Ad1m1r3, Vunwe, Admire, 0639854933]
+Loading user: [jos_y, @Jossy_So11y, Josephine, Hlungwani, 0713904572]
+Loading user: [k_bo, #Kayr@yb0, Karabo, Mokwena, +27884963245]
+Loading user: [mil_e, @Mol3mo200#, Molemo, Molefe, 0739662432]
+Loaded user: se_di -> Lesedi Motlatlole
+Loaded user: jos_y -> Josephine Hlungwani
+Loaded user: _mire -> Vunwe Admire
+Loaded user: k_bo -> Karabo Mokwena
+Loaded user: mil_e -> Molemo Molefe
+Loaded user: nu_ -> Vunene Hlungwani
+Loading user: [nu_, @#Vun3n3, Vunene, Hlungwani, 0713567594]
+Loading user: [se_di, @L3s3di#, Lesedi, Motlatlole, +27978403852]
+Loading user: [_mire, @Ad1m1r3, Vunwe, Admire, 0639854933]
+Loading user: [jos_y, @Jossy_So11y, Josephine, Hlungwani, 0713904572]
+Loading user: [k_bo, #Kayr@yb0, Karabo, Mokwena, +27884963245]
+Loading user: [mil_e, @Mol3mo200#, Molemo, Molefe, 0739662432]
+Loaded user: se_di -> Lesedi Motlatlole
+Loaded user: jos_y -> Josephine Hlungwani
+Loaded user: _mire -> Vunwe Admire
+Loaded user: k_bo -> Karabo Mokwena
+Loaded user: mil_e -> Molemo Molefe
+Loaded user: nu_ -> Vunene Hlungwani
+Loading user: [nu_, @#Vun3n3, Vunene, Hlungwani, 0713567594]
+Loading user: [se_di, @L3s3di#, Lesedi, Motlatlole, +27978403852]
+Loading user: [_mire, @Ad1m1r3, Vunwe, Admire, 0639854933]
+Loading user: [jos_y, @Jossy_So11y, Josephine, Hlungwani, 0713904572]
+Loading user: [k_bo, #Kayr@yb0, Karabo, Mokwena, +27884963245]
+Loading user: [mil_e, @Mol3mo200#, Molemo, Molefe, 0739662432]
+Loaded user: se_di -> Lesedi Motlatlole
+Loaded user: jos_y -> Josephine Hlungwani
+Loaded user: _mire -> Vunwe Admire
+Loaded user: k_bo -> Karabo Mokwena
+Loaded user: mil_e -> Molemo Molefe
+Loaded user: nu_ -> Vunene Hlungwani
+Loading user: [nu_, @#Vun3n3, Vunene, Hlungwani, 0713567594]
+Loading user: [se_di, @L3s3di#, Lesedi, Motlatlole, +27978403852]
+Loading user: [_mire, @Ad1m1r3, Vunwe, Admire, 0639854933]
+Loading user: [jos_y, @Jossy_So11y, Josephine, Hlungwani, 0713904572]
+Loading user: [k_bo, #Kayr@yb0, Karabo, Mokwena, +27884963245]
+Loading user: [mil_e, @Mol3mo200#, Molemo, Molefe, 0739662432]
+Loaded user: se_di -> Lesedi Motlatlole
+Loaded user: jos_y -> Josephine Hlungwani
+Loaded user: _mire -> Vunwe Admire
+Loaded user: k_bo -> Karabo Mokwena
+Loaded user: mil_e -> Molemo Molefe
+Loaded user: nu_ -> Vunene Hlungwani
+Valid case '_abc': true
+Loading user: [nu_, @#Vun3n3, Vunene, Hlungwani, 0713567594]
+Loading user: [se_di, @L3s3di#, Lesedi, Motlatlole, +27978403852]
+Loading user: [_mire, @Ad1m1r3, Vunwe, Admire, 0639854933]
+Loading user: [jos_y, @Jossy_So11y, Josephine, Hlungwani, 0713904572]
+Loading user: [k_bo, #Kayr@yb0, Karabo, Mokwena, +27884963245]
+Loading user: [mil_e, @Mol3mo200#, Molemo, Molefe, 0739662432]
+Loaded user: se_di -> Lesedi Motlatlole
+Loaded user: jos_y -> Josephine Hlungwani
+Loaded user: _mire -> Vunwe Admire
+Loaded user: k_bo -> Karabo Mokwena
+Loaded user: mil_e -> Molemo Molefe
+Loaded user: nu_ -> Vunene Hlungwani
+Too long case 'long_user': false
+]]></system-out>
+  </testcase>
+  <testcase name="testCheckUsername" classname="com.mycompany.portfolio_of_evidence_poe.LoginTest" time="0.09">
+    <system-out><![CDATA[checkUsername
+Loading user: [nu_, @#Vun3n3, Vunene, Hlungwani, 0713567594]
+Loading user: [se_di, @L3s3di#, Lesedi, Motlatlole, +27978403852]
+Loading user: [_mire, @Ad1m1r3, Vunwe, Admire, 0639854933]
+Loading user: [jos_y, @Jossy_So11y, Josephine, Hlungwani, 0713904572]
+Loading user: [k_bo, #Kayr@yb0, Karabo, Mokwena, +27884963245]
+Loading user: [mil_e, @Mol3mo200#, Molemo, Molefe, 0739662432]
+Loaded user: se_di -> Lesedi Motlatlole
+Loaded user: jos_y -> Josephine Hlungwani
+Loaded user: _mire -> Vunwe Admire
+Loaded user: k_bo -> Karabo Mokwena
+Loaded user: mil_e -> Molemo Molefe
+Loaded user: nu_ -> Vunene Hlungwani
+]]></system-out>
+  </testcase>
+  <testcase name="testCheckCellphoneNumber" classname="com.mycompany.portfolio_of_evidence_poe.LoginTest" time="1.15">
+    <system-out><![CDATA[CellphoneNumberValidation
+Loading user: [nu_, @#Vun3n3, Vunene, Hlungwani, 0713567594]
+Loading user: [se_di, @L3s3di#, Lesedi, Motlatlole, +27978403852]
+Loading user: [_mire, @Ad1m1r3, Vunwe, Admire, 0639854933]
+Loading user: [jos_y, @Jossy_So11y, Josephine, Hlungwani, 0713904572]
+Loading user: [k_bo, #Kayr@yb0, Karabo, Mokwena, +27884963245]
+Loading user: [mil_e, @Mol3mo200#, Molemo, Molefe, 0739662432]
+Loaded user: se_di -> Lesedi Motlatlole
+Loaded user: jos_y -> Josephine Hlungwani
+Loaded user: _mire -> Vunwe Admire
+Loaded user: k_bo -> Karabo Mokwena
+Loaded user: mil_e -> Molemo Molefe
+Loaded user: nu_ -> Vunene Hlungwani
+Loading user: [nu_, @#Vun3n3, Vunene, Hlungwani, 0713567594]
+Loading user: [se_di, @L3s3di#, Lesedi, Motlatlole, +27978403852]
+Loading user: [_mire, @Ad1m1r3, Vunwe, Admire, 0639854933]
+Loading user: [jos_y, @Jossy_So11y, Josephine, Hlungwani, 0713904572]
+Loading user: [k_bo, #Kayr@yb0, Karabo, Mokwena, +27884963245]
+Loading user: [mil_e, @Mol3mo200#, Molemo, Molefe, 0739662432]
+Loaded user: se_di -> Lesedi Motlatlole
+Loaded user: jos_y -> Josephine Hlungwani
+Loaded user: _mire -> Vunwe Admire
+Loaded user: k_bo -> Karabo Mokwena
+Loaded user: mil_e -> Molemo Molefe
+Loaded user: nu_ -> Vunene Hlungwani
+Loading user: [nu_, @#Vun3n3, Vunene, Hlungwani, 0713567594]
+Loading user: [se_di, @L3s3di#, Lesedi, Motlatlole, +27978403852]
+Loading user: [_mire, @Ad1m1r3, Vunwe, Admire, 0639854933]
+Loading user: [jos_y, @Jossy_So11y, Josephine, Hlungwani, 0713904572]
+Loading user: [k_bo, #Kayr@yb0, Karabo, Mokwena, +27884963245]
+Loading user: [mil_e, @Mol3mo200#, Molemo, Molefe, 0739662432]
+Loaded user: se_di -> Lesedi Motlatlole
+Loaded user: jos_y -> Josephine Hlungwani
+Loaded user: _mire -> Vunwe Admire
+Loaded user: k_bo -> Karabo Mokwena
+Loaded user: mil_e -> Molemo Molefe
+Loaded user: nu_ -> Vunene Hlungwani
+Loading user: [nu_, @#Vun3n3, Vunene, Hlungwani, 0713567594]
+Loading user: [se_di, @L3s3di#, Lesedi, Motlatlole, +27978403852]
+Loading user: [_mire, @Ad1m1r3, Vunwe, Admire, 0639854933]
+Loading user: [jos_y, @Jossy_So11y, Josephine, Hlungwani, 0713904572]
+Loading user: [k_bo, #Kayr@yb0, Karabo, Mokwena, +27884963245]
+Loading user: [mil_e, @Mol3mo200#, Molemo, Molefe, 0739662432]
+Loaded user: se_di -> Lesedi Motlatlole
+Loaded user: jos_y -> Josephine Hlungwani
+Loaded user: _mire -> Vunwe Admire
+Loaded user: k_bo -> Karabo Mokwena
+Loaded user: mil_e -> Molemo Molefe
+Loaded user: nu_ -> Vunene Hlungwani
+Loading user: [nu_, @#Vun3n3, Vunene, Hlungwani, 0713567594]
+Loading user: [se_di, @L3s3di#, Lesedi, Motlatlole, +27978403852]
+Loading user: [_mire, @Ad1m1r3, Vunwe, Admire, 0639854933]
+Loading user: [jos_y, @Jossy_So11y, Josephine, Hlungwani, 0713904572]
+Loading user: [k_bo, #Kayr@yb0, Karabo, Mokwena, +27884963245]
+Loading user: [mil_e, @Mol3mo200#, Molemo, Molefe, 0739662432]
+Loaded user: se_di -> Lesedi Motlatlole
+Loaded user: jos_y -> Josephine Hlungwani
+Loaded user: _mire -> Vunwe Admire
+Loaded user: k_bo -> Karabo Mokwena
+Loaded user: mil_e -> Molemo Molefe
+Loaded user: nu_ -> Vunene Hlungwani
+Loading user: [nu_, @#Vun3n3, Vunene, Hlungwani, 0713567594]
+Loading user: [se_di, @L3s3di#, Lesedi, Motlatlole, +27978403852]
+Loading user: [_mire, @Ad1m1r3, Vunwe, Admire, 0639854933]
+Loading user: [jos_y, @Jossy_So11y, Josephine, Hlungwani, 0713904572]
+Loading user: [k_bo, #Kayr@yb0, Karabo, Mokwena, +27884963245]
+Loading user: [mil_e, @Mol3mo200#, Molemo, Molefe, 0739662432]
+Loaded user: se_di -> Lesedi Motlatlole
+Loaded user: jos_y -> Josephine Hlungwani
+Loaded user: _mire -> Vunwe Admire
+Loaded user: k_bo -> Karabo Mokwena
+Loaded user: mil_e -> Molemo Molefe
+Loaded user: nu_ -> Vunene Hlungwani
+Loading user: [nu_, @#Vun3n3, Vunene, Hlungwani, 0713567594]
+Loading user: [se_di, @L3s3di#, Lesedi, Motlatlole, +27978403852]
+Loading user: [_mire, @Ad1m1r3, Vunwe, Admire, 0639854933]
+Loading user: [jos_y, @Jossy_So11y, Josephine, Hlungwani, 0713904572]
+Loading user: [k_bo, #Kayr@yb0, Karabo, Mokwena, +27884963245]
+Loading user: [mil_e, @Mol3mo200#, Molemo, Molefe, 0739662432]
+Loaded user: se_di -> Lesedi Motlatlole
+Loaded user: jos_y -> Josephine Hlungwani
+Loaded user: _mire -> Vunwe Admire
+Loaded user: k_bo -> Karabo Mokwena
+Loaded user: mil_e -> Molemo Molefe
+Loaded user: nu_ -> Vunene Hlungwani
+Loading user: [nu_, @#Vun3n3, Vunene, Hlungwani, 0713567594]
+Loading user: [se_di, @L3s3di#, Lesedi, Motlatlole, +27978403852]
+Loading user: [_mire, @Ad1m1r3, Vunwe, Admire, 0639854933]
+Loading user: [jos_y, @Jossy_So11y, Josephine, Hlungwani, 0713904572]
+Loading user: [k_bo, #Kayr@yb0, Karabo, Mokwena, +27884963245]
+Loading user: [mil_e, @Mol3mo200#, Molemo, Molefe, 0739662432]
+Loaded user: se_di -> Lesedi Motlatlole
+Loaded user: jos_y -> Josephine Hlungwani
+Loaded user: _mire -> Vunwe Admire
+Loaded user: k_bo -> Karabo Mokwena
+Loaded user: mil_e -> Molemo Molefe
+Loaded user: nu_ -> Vunene Hlungwani
+Valid number (+27123456789): true
+Loading user: [nu_, @#Vun3n3, Vunene, Hlungwani, 0713567594]
+Loading user: [se_di, @L3s3di#, Lesedi, Motlatlole, +27978403852]
+Loading user: [_mire, @Ad1m1r3, Vunwe, Admire, 0639854933]
+Loading user: [jos_y, @Jossy_So11y, Josephine, Hlungwani, 0713904572]
+Loading user: [k_bo, #Kayr@yb0, Karabo, Mokwena, +27884963245]
+Loading user: [mil_e, @Mol3mo200#, Molemo, Molefe, 0739662432]
+Loaded user: se_di -> Lesedi Motlatlole
+Loaded user: jos_y -> Josephine Hlungwani
+Loaded user: _mire -> Vunwe Admire
+Loaded user: k_bo -> Karabo Mokwena
+Loaded user: mil_e -> Molemo Molefe
+Loaded user: nu_ -> Vunene Hlungwani
+Valid number (0123456789): true
+Loading user: [nu_, @#Vun3n3, Vunene, Hlungwani, 0713567594]
+Loading user: [se_di, @L3s3di#, Lesedi, Motlatlole, +27978403852]
+Loading user: [_mire, @Ad1m1r3, Vunwe, Admire, 0639854933]
+Loading user: [jos_y, @Jossy_So11y, Josephine, Hlungwani, 0713904572]
+Loading user: [k_bo, #Kayr@yb0, Karabo, Mokwena, +27884963245]
+Loading user: [mil_e, @Mol3mo200#, Molemo, Molefe, 0739662432]
+Loaded user: se_di -> Lesedi Motlatlole
+Loaded user: jos_y -> Josephine Hlungwani
+Loaded user: _mire -> Vunwe Admire
+Loaded user: k_bo -> Karabo Mokwena
+Loaded user: mil_e -> Molemo Molefe
+Loaded user: nu_ -> Vunene Hlungwani
+Wrong country code (+28123456789): false
+Loading user: [nu_, @#Vun3n3, Vunene, Hlungwani, 0713567594]
+Loading user: [se_di, @L3s3di#, Lesedi, Motlatlole, +27978403852]
+Loading user: [_mire, @Ad1m1r3, Vunwe, Admire, 0639854933]
+Loading user: [jos_y, @Jossy_So11y, Josephine, Hlungwani, 0713904572]
+Loading user: [k_bo, #Kayr@yb0, Karabo, Mokwena, +27884963245]
+Loading user: [mil_e, @Mol3mo200#, Molemo, Molefe, 0739662432]
+Loaded user: se_di -> Lesedi Motlatlole
+Loaded user: jos_y -> Josephine Hlungwani
+Loaded user: _mire -> Vunwe Admire
+Loaded user: k_bo -> Karabo Mokwena
+Loaded user: mil_e -> Molemo Molefe
+Loaded user: nu_ -> Vunene Hlungwani
+Missing leading '0' or '+27' (123456789): false
+Loading user: [nu_, @#Vun3n3, Vunene, Hlungwani, 0713567594]
+Loading user: [se_di, @L3s3di#, Lesedi, Motlatlole, +27978403852]
+Loading user: [_mire, @Ad1m1r3, Vunwe, Admire, 0639854933]
+Loading user: [jos_y, @Jossy_So11y, Josephine, Hlungwani, 0713904572]
+Loading user: [k_bo, #Kayr@yb0, Karabo, Mokwena, +27884963245]
+Loading user: [mil_e, @Mol3mo200#, Molemo, Molefe, 0739662432]
+Loaded user: se_di -> Lesedi Motlatlole
+Loaded user: jos_y -> Josephine Hlungwani
+Loaded user: _mire -> Vunwe Admire
+Loaded user: k_bo -> Karabo Mokwena
+Loaded user: mil_e -> Molemo Molefe
+Loaded user: nu_ -> Vunene Hlungwani
+Too few digits (+2712345678): false
+]]></system-out>
+  </testcase>
+  <testcase name="testLoginStatus" classname="com.mycompany.portfolio_of_evidence_poe.LoginTest" time="0.419">
+    <system-out><![CDATA[LoginStatus
+Loading user: [nu_, @#Vun3n3, Vunene, Hlungwani, 0713567594]
+Loading user: [se_di, @L3s3di#, Lesedi, Motlatlole, +27978403852]
+Loading user: [_mire, @Ad1m1r3, Vunwe, Admire, 0639854933]
+Loading user: [jos_y, @Jossy_So11y, Josephine, Hlungwani, 0713904572]
+Loading user: [k_bo, #Kayr@yb0, Karabo, Mokwena, +27884963245]
+Loading user: [mil_e, @Mol3mo200#, Molemo, Molefe, 0739662432]
+Loaded user: se_di -> Lesedi Motlatlole
+Loaded user: jos_y -> Josephine Hlungwani
+Loaded user: _mire -> Vunwe Admire
+Loaded user: k_bo -> Karabo Mokwena
+Loaded user: mil_e -> Molemo Molefe
+Loaded user: nu_ -> Vunene Hlungwani
+User found: [nu_, @#Vun3n3, Vunene, Hlungwani, 0713567594]
+Entered password: @#Vun3n3
+Checking user: nu_
+All stored usernames: [se_di, jos_y, _mire, k_bo, mil_e, nu_]
+Retrieved user info: [nu_, @#Vun3n3, Vunene, Hlungwani, 0713567594]
+Loading user: [nu_, @#Vun3n3, Vunene, Hlungwani, 0713567594]
+Loading user: [se_di, @L3s3di#, Lesedi, Motlatlole, +27978403852]
+Loading user: [_mire, @Ad1m1r3, Vunwe, Admire, 0639854933]
+Loading user: [jos_y, @Jossy_So11y, Josephine, Hlungwani, 0713904572]
+Loading user: [k_bo, #Kayr@yb0, Karabo, Mokwena, +27884963245]
+Loading user: [mil_e, @Mol3mo200#, Molemo, Molefe, 0739662432]
+Loaded user: se_di -> Lesedi Motlatlole
+Loaded user: jos_y -> Josephine Hlungwani
+Loaded user: _mire -> Vunwe Admire
+Loaded user: k_bo -> Karabo Mokwena
+Loaded user: mil_e -> Molemo Molefe
+Loaded user: nu_ -> Vunene Hlungwani
+User not found in map! Login attempt failed.
+Checking user: m_u
+All stored usernames: [se_di, jos_y, _mire, k_bo, mil_e, nu_]
+User not found in map!
+Loading user: [nu_, @#Vun3n3, Vunene, Hlungwani, 0713567594]
+Loading user: [se_di, @L3s3di#, Lesedi, Motlatlole, +27978403852]
+Loading user: [_mire, @Ad1m1r3, Vunwe, Admire, 0639854933]
+Loading user: [jos_y, @Jossy_So11y, Josephine, Hlungwani, 0713904572]
+Loading user: [k_bo, #Kayr@yb0, Karabo, Mokwena, +27884963245]
+Loading user: [mil_e, @Mol3mo200#, Molemo, Molefe, 0739662432]
+Loaded user: se_di -> Lesedi Motlatlole
+Loaded user: jos_y -> Josephine Hlungwani
+Loaded user: _mire -> Vunwe Admire
+Loaded user: k_bo -> Karabo Mokwena
+Loaded user: mil_e -> Molemo Molefe
+Loaded user: nu_ -> Vunene Hlungwani
+Loading user: [nu_, @#Vun3n3, Vunene, Hlungwani, 0713567594]
+Loading user: [se_di, @L3s3di#, Lesedi, Motlatlole, +27978403852]
+Loading user: [_mire, @Ad1m1r3, Vunwe, Admire, 0639854933]
+Loading user: [jos_y, @Jossy_So11y, Josephine, Hlungwani, 0713904572]
+Loading user: [k_bo, #Kayr@yb0, Karabo, Mokwena, +27884963245]
+Loading user: [mil_e, @Mol3mo200#, Molemo, Molefe, 0739662432]
+Loaded user: se_di -> Lesedi Motlatlole
+Loaded user: jos_y -> Josephine Hlungwani
+Loaded user: _mire -> Vunwe Admire
+Loaded user: k_bo -> Karabo Mokwena
+Loaded user: mil_e -> Molemo Molefe
+Loaded user: nu_ -> Vunene Hlungwani
+Loading user: [nu_, @#Vun3n3, Vunene, Hlungwani, 0713567594]
+Loading user: [se_di, @L3s3di#, Lesedi, Motlatlole, +27978403852]
+Loading user: [_mire, @Ad1m1r3, Vunwe, Admire, 0639854933]
+Loading user: [jos_y, @Jossy_So11y, Josephine, Hlungwani, 0713904572]
+Loading user: [k_bo, #Kayr@yb0, Karabo, Mokwena, +27884963245]
+Loading user: [mil_e, @Mol3mo200#, Molemo, Molefe, 0739662432]
+Loaded user: se_di -> Lesedi Motlatlole
+Loaded user: jos_y -> Josephine Hlungwani
+Loaded user: _mire -> Vunwe Admire
+Loaded user: k_bo -> Karabo Mokwena
+Loaded user: mil_e -> Molemo Molefe
+Loaded user: nu_ -> Vunene Hlungwani
+]]></system-out>
+  </testcase>
+  <testcase name="testCheckPasswordFormat" classname="com.mycompany.portfolio_of_evidence_poe.LoginTest" time="1.027">
+    <system-out><![CDATA[PasswordFormatValidation
+Loading user: [nu_, @#Vun3n3, Vunene, Hlungwani, 0713567594]
+Loading user: [se_di, @L3s3di#, Lesedi, Motlatlole, +27978403852]
+Loading user: [_mire, @Ad1m1r3, Vunwe, Admire, 0639854933]
+Loading user: [jos_y, @Jossy_So11y, Josephine, Hlungwani, 0713904572]
+Loading user: [k_bo, #Kayr@yb0, Karabo, Mokwena, +27884963245]
+Loading user: [mil_e, @Mol3mo200#, Molemo, Molefe, 0739662432]
+Loaded user: se_di -> Lesedi Motlatlole
+Loaded user: jos_y -> Josephine Hlungwani
+Loaded user: _mire -> Vunwe Admire
+Loaded user: k_bo -> Karabo Mokwena
+Loaded user: mil_e -> Molemo Molefe
+Loaded user: nu_ -> Vunene Hlungwani
+Loading user: [nu_, @#Vun3n3, Vunene, Hlungwani, 0713567594]
+Loading user: [se_di, @L3s3di#, Lesedi, Motlatlole, +27978403852]
+Loading user: [_mire, @Ad1m1r3, Vunwe, Admire, 0639854933]
+Loading user: [jos_y, @Jossy_So11y, Josephine, Hlungwani, 0713904572]
+Loading user: [k_bo, #Kayr@yb0, Karabo, Mokwena, +27884963245]
+Loading user: [mil_e, @Mol3mo200#, Molemo, Molefe, 0739662432]
+Loaded user: se_di -> Lesedi Motlatlole
+Loaded user: jos_y -> Josephine Hlungwani
+Loaded user: _mire -> Vunwe Admire
+Loaded user: k_bo -> Karabo Mokwena
+Loaded user: mil_e -> Molemo Molefe
+Loaded user: nu_ -> Vunene Hlungwani
+Loading user: [nu_, @#Vun3n3, Vunene, Hlungwani, 0713567594]
+Loading user: [se_di, @L3s3di#, Lesedi, Motlatlole, +27978403852]
+Loading user: [_mire, @Ad1m1r3, Vunwe, Admire, 0639854933]
+Loading user: [jos_y, @Jossy_So11y, Josephine, Hlungwani, 0713904572]
+Loading user: [k_bo, #Kayr@yb0, Karabo, Mokwena, +27884963245]
+Loading user: [mil_e, @Mol3mo200#, Molemo, Molefe, 0739662432]
+Loaded user: se_di -> Lesedi Motlatlole
+Loaded user: jos_y -> Josephine Hlungwani
+Loaded user: _mire -> Vunwe Admire
+Loaded user: k_bo -> Karabo Mokwena
+Loaded user: mil_e -> Molemo Molefe
+Loaded user: nu_ -> Vunene Hlungwani
+Loading user: [nu_, @#Vun3n3, Vunene, Hlungwani, 0713567594]
+Loading user: [se_di, @L3s3di#, Lesedi, Motlatlole, +27978403852]
+Loading user: [_mire, @Ad1m1r3, Vunwe, Admire, 0639854933]
+Loading user: [jos_y, @Jossy_So11y, Josephine, Hlungwani, 0713904572]
+Loading user: [k_bo, #Kayr@yb0, Karabo, Mokwena, +27884963245]
+Loading user: [mil_e, @Mol3mo200#, Molemo, Molefe, 0739662432]
+Loaded user: se_di -> Lesedi Motlatlole
+Loaded user: jos_y -> Josephine Hlungwani
+Loaded user: _mire -> Vunwe Admire
+Loaded user: k_bo -> Karabo Mokwena
+Loaded user: mil_e -> Molemo Molefe
+Loaded user: nu_ -> Vunene Hlungwani
+Loading user: [nu_, @#Vun3n3, Vunene, Hlungwani, 0713567594]
+Loading user: [se_di, @L3s3di#, Lesedi, Motlatlole, +27978403852]
+Loading user: [_mire, @Ad1m1r3, Vunwe, Admire, 0639854933]
+Loading user: [jos_y, @Jossy_So11y, Josephine, Hlungwani, 0713904572]
+Loading user: [k_bo, #Kayr@yb0, Karabo, Mokwena, +27884963245]
+Loading user: [mil_e, @Mol3mo200#, Molemo, Molefe, 0739662432]
+Loaded user: se_di -> Lesedi Motlatlole
+Loaded user: jos_y -> Josephine Hlungwani
+Loaded user: _mire -> Vunwe Admire
+Loaded user: k_bo -> Karabo Mokwena
+Loaded user: mil_e -> Molemo Molefe
+Loaded user: nu_ -> Vunene Hlungwani
+Loading user: [nu_, @#Vun3n3, Vunene, Hlungwani, 0713567594]
+Loading user: [se_di, @L3s3di#, Lesedi, Motlatlole, +27978403852]
+Loading user: [_mire, @Ad1m1r3, Vunwe, Admire, 0639854933]
+Loading user: [jos_y, @Jossy_So11y, Josephine, Hlungwani, 0713904572]
+Loading user: [k_bo, #Kayr@yb0, Karabo, Mokwena, +27884963245]
+Loading user: [mil_e, @Mol3mo200#, Molemo, Molefe, 0739662432]
+Loaded user: se_di -> Lesedi Motlatlole
+Loaded user: jos_y -> Josephine Hlungwani
+Loaded user: _mire -> Vunwe Admire
+Loaded user: k_bo -> Karabo Mokwena
+Loaded user: mil_e -> Molemo Molefe
+Loaded user: nu_ -> Vunene Hlungwani
+Loading user: [nu_, @#Vun3n3, Vunene, Hlungwani, 0713567594]
+Loading user: [se_di, @L3s3di#, Lesedi, Motlatlole, +27978403852]
+Loading user: [_mire, @Ad1m1r3, Vunwe, Admire, 0639854933]
+Loading user: [jos_y, @Jossy_So11y, Josephine, Hlungwani, 0713904572]
+Loading user: [k_bo, #Kayr@yb0, Karabo, Mokwena, +27884963245]
+Loading user: [mil_e, @Mol3mo200#, Molemo, Molefe, 0739662432]
+Loaded user: se_di -> Lesedi Motlatlole
+Loaded user: jos_y -> Josephine Hlungwani
+Loaded user: _mire -> Vunwe Admire
+Loaded user: k_bo -> Karabo Mokwena
+Loaded user: mil_e -> Molemo Molefe
+Loaded user: nu_ -> Vunene Hlungwani
+Valid password: true
+Loading user: [nu_, @#Vun3n3, Vunene, Hlungwani, 0713567594]
+Loading user: [se_di, @L3s3di#, Lesedi, Motlatlole, +27978403852]
+Loading user: [_mire, @Ad1m1r3, Vunwe, Admire, 0639854933]
+Loading user: [jos_y, @Jossy_So11y, Josephine, Hlungwani, 0713904572]
+Loading user: [k_bo, #Kayr@yb0, Karabo, Mokwena, +27884963245]
+Loading user: [mil_e, @Mol3mo200#, Molemo, Molefe, 0739662432]
+Loaded user: se_di -> Lesedi Motlatlole
+Loaded user: jos_y -> Josephine Hlungwani
+Loaded user: _mire -> Vunwe Admire
+Loaded user: k_bo -> Karabo Mokwena
+Loaded user: mil_e -> Molemo Molefe
+Loaded user: nu_ -> Vunene Hlungwani
+Weak password (missing special char & number): false
+Loading user: [nu_, @#Vun3n3, Vunene, Hlungwani, 0713567594]
+Loading user: [se_di, @L3s3di#, Lesedi, Motlatlole, +27978403852]
+Loading user: [_mire, @Ad1m1r3, Vunwe, Admire, 0639854933]
+Loading user: [jos_y, @Jossy_So11y, Josephine, Hlungwani, 0713904572]
+Loading user: [k_bo, #Kayr@yb0, Karabo, Mokwena, +27884963245]
+Loading user: [mil_e, @Mol3mo200#, Molemo, Molefe, 0739662432]
+Loaded user: se_di -> Lesedi Motlatlole
+Loaded user: jos_y -> Josephine Hlungwani
+Loaded user: _mire -> Vunwe Admire
+Loaded user: k_bo -> Karabo Mokwena
+Loaded user: mil_e -> Molemo Molefe
+Loaded user: nu_ -> Vunene Hlungwani
+No number: false
+Loading user: [nu_, @#Vun3n3, Vunene, Hlungwani, 0713567594]
+Loading user: [se_di, @L3s3di#, Lesedi, Motlatlole, +27978403852]
+Loading user: [_mire, @Ad1m1r3, Vunwe, Admire, 0639854933]
+Loading user: [jos_y, @Jossy_So11y, Josephine, Hlungwani, 0713904572]
+Loading user: [k_bo, #Kayr@yb0, Karabo, Mokwena, +27884963245]
+Loading user: [mil_e, @Mol3mo200#, Molemo, Molefe, 0739662432]
+Loaded user: se_di -> Lesedi Motlatlole
+Loaded user: jos_y -> Josephine Hlungwani
+Loaded user: _mire -> Vunwe Admire
+Loaded user: k_bo -> Karabo Mokwena
+Loaded user: mil_e -> Molemo Molefe
+Loaded user: nu_ -> Vunene Hlungwani
+No special character: false
+Loading user: [nu_, @#Vun3n3, Vunene, Hlungwani, 0713567594]
+Loading user: [se_di, @L3s3di#, Lesedi, Motlatlole, +27978403852]
+Loading user: [_mire, @Ad1m1r3, Vunwe, Admire, 0639854933]
+Loading user: [jos_y, @Jossy_So11y, Josephine, Hlungwani, 0713904572]
+Loading user: [k_bo, #Kayr@yb0, Karabo, Mokwena, +27884963245]
+Loading user: [mil_e, @Mol3mo200#, Molemo, Molefe, 0739662432]
+Loaded user: se_di -> Lesedi Motlatlole
+Loaded user: jos_y -> Josephine Hlungwani
+Loaded user: _mire -> Vunwe Admire
+Loaded user: k_bo -> Karabo Mokwena
+Loaded user: mil_e -> Molemo Molefe
+Loaded user: nu_ -> Vunene Hlungwani
+Too short: false
+]]></system-out>
+  </testcase>
+  <testcase name="testCheckPassword" classname="com.mycompany.portfolio_of_evidence_poe.LoginTest" time="0.078">
+    <system-out><![CDATA[checkPassword
+Loading user: [nu_, @#Vun3n3, Vunene, Hlungwani, 0713567594]
+Loading user: [se_di, @L3s3di#, Lesedi, Motlatlole, +27978403852]
+Loading user: [_mire, @Ad1m1r3, Vunwe, Admire, 0639854933]
+Loading user: [jos_y, @Jossy_So11y, Josephine, Hlungwani, 0713904572]
+Loading user: [k_bo, #Kayr@yb0, Karabo, Mokwena, +27884963245]
+Loading user: [mil_e, @Mol3mo200#, Molemo, Molefe, 0739662432]
+Loaded user: se_di -> Lesedi Motlatlole
+Loaded user: jos_y -> Josephine Hlungwani
+Loaded user: _mire -> Vunwe Admire
+Loaded user: k_bo -> Karabo Mokwena
+Loaded user: mil_e -> Molemo Molefe
+Loaded user: nu_ -> Vunene Hlungwani
+]]></system-out>
+  </testcase>
+  <testcase name="testGetCellPhoneNumber" classname="com.mycompany.portfolio_of_evidence_poe.LoginTest" time="0.11">
+    <system-out><![CDATA[getCellPhoneNumber
+Loading user: [nu_, @#Vun3n3, Vunene, Hlungwani, 0713567594]
+Loading user: [se_di, @L3s3di#, Lesedi, Motlatlole, +27978403852]
+Loading user: [_mire, @Ad1m1r3, Vunwe, Admire, 0639854933]
+Loading user: [jos_y, @Jossy_So11y, Josephine, Hlungwani, 0713904572]
+Loading user: [k_bo, #Kayr@yb0, Karabo, Mokwena, +27884963245]
+Loading user: [mil_e, @Mol3mo200#, Molemo, Molefe, 0739662432]
+Loaded user: se_di -> Lesedi Motlatlole
+Loaded user: jos_y -> Josephine Hlungwani
+Loaded user: _mire -> Vunwe Admire
+Loaded user: k_bo -> Karabo Mokwena
+Loaded user: mil_e -> Molemo Molefe
+Loaded user: nu_ -> Vunene Hlungwani
+]]></system-out>
+  </testcase>
+</testsuite>

@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.mycompany.portfolio_of_evidence_poe.LoginTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.337 s -- in com.mycompany.portfolio_of_evidence_poe.LoginTest
